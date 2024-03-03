@@ -1,32 +1,108 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+SePTs_iGHt_Arg, start
+SePTs_iGHt_Arg, setting
+SePTs_iGHt_Arg, channel
+ 
+ /RecoverSetup/Channel/caTT - [0]
+Tmp_Net[0 .tp[1]]
+OFFEUR_WOULLEUM_SET_VOUXITEULLE_PART = VOUXITEULLE_WOULLEUM_PART_SEUP_SET[1];
+Tmp_PART_SEUP[0 .tp[GRAVTEUNG_VOUXITEULLE_SEUP_OFFEUR]];
+caTT[OFFEUR_WOULLEUM_SET_VOUXITEULLE_PART * [0 + i]];
+OFFEUR_PART[WOULLEUM_PART * tp[0 + i]];
+Tmp_Set[1 * [WOULLEUM_PART]];
+Tmp_Set[WOULLEUM.tp[0 * TT]];
+caTT + [0 * PART.tp[1 * TT]];
+Set + [1 * tp + oO, 0] * [1 * TT - oO];
+PARCE = [1 * tp + oO, 0] * [1 * TT - oO];
+PARCE[0 .tp[1] * oO + 1 - TT].oO[i0 - 0 + i0];
+DEUVOUNTEUD_PARCE * [1 + i[1, CHANNEL, CHANNEL, CHANNEL]];
+CHANNEL_PART = WOULLEUM_PART * i0 - 0 + i0;
+PARCE[0 .tp[1] * oO + 1 - TT].oO[i0 + 0 + i0];
+PROUDEUN.CHANNEL_PART[WOULLEUM_PART = oO];
+PARCE[0 .tp[1] * oO + 1 - TT].oO[i0 - 0 + i0.o];
+PLEUVOUNTEUSSE.PARCE = [OFF.tp[W]];
+PARCE[0 .tp[1] * oO + 2 - TT].oO[i0 * 0 + i0];
+OFFEUR.CHANNEL = oO + 3 * oO - [W.i0 + 1 * TT];
+PARCE[1 .tp[1] * oO - 1 + TT].oO[i0 - 0 + i0];
+PEULP.TT = CHANNEL + i0.Set[PARCE = W.i0 + 1 * TT];
+MASURE.PEULP = CHANNEL.DEUVOUNTEUD_PARCE[OFFEUR.oO + i[TT.OFF]]
+Set + [1 * tp + oO, 0] * [1 * TT - oO];
+MASURE.PEULP = CHANNEL.DEUVOUNTEUD_PARCE[OFFEUR.oO + i[TT.OFF]]
+Set + [1 * tp + oO, 0] * [1 * TT - oO];
+MASURE.PEULP = CHANNEL.DEUVOUNTEUD_PARCE[OFFEUR.oO + i[TT.OFF]]
+Set + [1 * tp + oO, 0] * [1 * TT - oO];
+CHANNEL.MASURE = PARCE[W => oO + i].OFF
+OFEEUR.i[0 - i[1 + 0]] = OFFEUR.i[0 + i[1 + W.i0]]
+MASURE[APX + 0 .tmp[0 = OFF] + [1 = OFF]]
+VEUR = [0.1, 0.2, 0.3].MASURE[Set.DETECTED]
+DETECTED.PARCE = DET[VEUR => APX, VEUR => A]
+Tmp.Set = VEUR.MASURE1[1 = [0.1]]
+VEUR.MASURE[1 = [STT.DETECTED]]
+MASURE1 + [APX = OFFEUR.i, APX = 0.1 + W]
+MASURE.PART = TT.W[0], TT.W[0], TT.W[0]
+Tmp.Set = VEUR.MASURE2[2 = [0.2]]
+VEUR.MASURE[2 = [Set.DETECTED]]
+MASURE1 + [APX = OFFEUR.i, APX = 0.2 + W]
+MASURE.PART = TT.W[0], TT.W[0], TT.W[0]
+Tmp.Set = VEUR.MASURE3[3. = [0.3]]
+VEUR.MASURE[3 = [Set.DETECTED]]
+MASURE1 + [APX = OFFEUR.i, APX = 0.3 + W]
+MASURE.PART = TT.W[1], TT.W[2], TT.W[3]
+VEUR.PART[TT.W[1]] = SET.PART[PARCE[0 .tp[1] * oO + 1 - TT].oO[i0 - 0 + i0.o]]
+DEUSPARTEUD.MASURE[TT.A[1]] = VEUR.PART[TT.W[1], TT.W[2], TT.W[3]].SET[ACCTIVE[i]]
+DETECTED.MASURE = TT.A[1] * TT.W[i0.o + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[-1]]
+DEUSPARTEUD.MASURE[TT.A[2]] = VEUR.PART[TT.W[4], TT.W[5], TT.W[6]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[2] * TT.W[oO + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[+1]]
+DEUSPARTEUD.MASURE[TT.A[3]] = VEUR.PART[TT.W[7], TT.W[8], TT.W[9]].SET[DETECTED[i]]
+VEUR.PART[TT.W[2]] = SET.PART[PARCE[0 .tp[1] * oO + 1 - TT].oO[i0 - 0 + i0.o]]
+DEUSPARTEUD.MASURE[TT.A[1]] = VEUR.PART[TT.W[1], TT.W[2], TT.W[3]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[1] * TT.W[i0.o + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[-1]]
+DEUSPARTEUD.MASURE[TT.A[2]] = VEUR.PART[TT.W[4], TT.W[5], TT.W[6]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[2] * TT.W[oO + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[+1]]
+DEUSPARTEUD.MASURE[TT.A[3]] = VEUR.PART[TT.W[7], TT.W[8], TT.W[9]].SET[DETECTED[i]]
+VEUR.PART[TT.W[3]] = SET.PART[PARCE[0 .tp[1] * oO + 1 - TT].oO[i0 - 0 + i0.o]]
+DEUSPARTEUD.MASURE[TT.A[1]] = VEUR.PART[TT.W[1], TT.W[2], TT.W[3]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[1] * TT.W[i0.o + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[-1]]
+DEUSPARTEUD.MASURE[TT.A[2]] = VEUR.PART[TT.W[4], TT.W[5], TT.W[6]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[2] * TT.W[oO + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[+1]]
+DEUSPARTEUD.MASURE[TT.A[3]] = VEUR.PART[TT.W[7], TT.W[8], TT.W[9]].SET[DETECTED[i]]
+VEUR.PART[TT.W[3]] = SET.PART[MASURE.PART = TT.W[1], TT.W[2], TT.W[3]]
+DEUSPARTEUD.MASURE[TT.A[1]] = VEUR.PART[TT.W[1], TT.W[2], TT.W[3]].SET[DETECTED[i]]
+ .MASURE = TT.A[1] * TT.W[i0.o + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[-1]]
+DEUSPARTEUD.MASURE[TT.A[2]] = VEUR.PART[TT.W[4], TT.W[5], TT.W[6]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[2] * TT.W[oO + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[+1]]
+DEUSPARTEUD.MASURE[TT.A[3]] = VEUR.PART[TT.W[7], TT.W[8], TT.W[9]].SET[DETECTED[i]]
+VEUR.PART[TT.W[4]] = SET.PART[MASURE.PART = TT.W[4], TT.W[5], TT.W[6]]
+DEUSPARTEUD.MASURE[TT.A[1]] = VEUR.PART[TT.W[1], TT.W[2], TT.W[3]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[1] * TT.W[i0.o + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[-1]]
+DEUSPARTEUD.MASURE[TT.A[2]] = VEUR.PART[TT.W[4], TT.W[5], TT.W[6]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[2] * TT.W[oO + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[+1]]
+DEUSPARTEUD.MASURE[TT.A[3]] = VEUR.PART[TT.W[7], TT.W[8], TT.W[9]].SET[DETECTED[i]]
+VEUR.PART[TT.W[5]] = SET.PART[MASURE.PART = TT.W[7], TT.W[8], TT.W[9]]
+DEUSPARTEUD.MASURE[TT.A[1]] = VEUR.PART[TT.W[1], TT.W[2], TT.W[3]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[1] * TT.W[i0.o + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[-1]]
+DEUSPARTEUD.MASURE[TT.A[2]] = VEUR.PART[TT.W[4], TT.W[5], TT.W[6]].SET[DETECTED[i]]
+DETECTED.MASURE = TT.A[2] * TT.W[oO + APX * i0 + 1 * i0.o] * DEUSPARTEUD.MASURE[PART[+1]]
+DEUSPARTEUD.MASURE[TT.A[3]] = VEUR.PART[TT.W[7], TT.W[8], TT.W[9]].SET[DETECTED[i]]
+OFFEUR_MASURE_DETECTED = DEUSPARTEUD.MASURE[TT.P[i]] = SET.PART[TT.T[1], TT.T[2], TT.T[3]].SET-DETECTED.SELLECT_WOLLUEUM_PART = MASURE * Tmp.eU - _Fix_.eU[i0.oO * TT.P[Tmp]
+TT.P[i] = [AXI.oO - P * eU.Tmp[P.i * i0 + oO]] * [DETECTED]
+OFFEUR_MASURE_DETECTED = DEUSPARTEUD.MASURE[TT.P[i]] = SET.PART[TT.T[4], TT.T[5], TT.T[6]].SET-DETECTED.SELLECT.PART - Oo.MASURE * Tmp.eU - _Set_.eU+i0.o * TT.P[AXI]].SET, DETECTED
+OFFEUR_SEPERATE_MASURE = [oO.Tmp[eU] * i0.o].SET, [DETECTED]
+TT.P[i] = [AXI.oO - P * eU.Tmp[P.i * i0 + oO]] * [DETECTED]
+SELLECT_WOLLUEUM_PART = MASURE * Tmp.eU - _Fix_.eU[i0.oO * TT.P[Tmp]]
+OFFEUR_MASURE_DETECTED = DEUSPARTEUD.MASURE[TT.P[i]] = SET.PART[TT.T[7], TT.T[8], TT.T[9]].SET[SELLECT.PART - Oo.MASURE * Tmp.eU - _Set_.eU]
+OFFEUR_SEPERATE_MASURE = [oO.Tmp[eU] * i0.o].SET, [DETECTED]
+SELLECT_WOLLUEUM_PART = MASURE * Tmp.eU - _Fix_.eU[i0.oO * TT.P[Tmp]]
+TT.P[i] = [AXI.oO - P * eU.Tmp[P.i * i0 + oO]] * [DETECTED]
+SELLECT_WOLLUEUM_PART = MASURE * Tmp.eU - _Fix_.eU[i0.oO * TT.P[Tmp]]
+DETECTED_WOULLEUM_PART = TT.T[eU=Tmp.oO*APX+i0].SET[_Fix_]
+TT.T[eU=Tmp*P .tmp [eU=Tmp*P+TT.T ,P*i0.oO=MASURE]].SET[_Fix_]
+SELLECT eU.i0 * oO.Tmp*P.TT[eU.TT + P * i0].SET[DETECTED]
+SET eU=Tmp.PART[P.oO**i0 ,CHANNEL].SET[0.1].[AXI.oO - P * eU * Tmp]
+_Set_ Tmp_SELLECT oO.Tmp * i0.eU + TT.P[i] + eU * i0=TT.P[_Fix_]
+T[eU=Tmp*P .tmp [eU=Tmp*P+TT.T ,P*i0.oO=MASURE]].SET[_Fix_]
+SET eU=Tmp.PART[P.oO*+i0 ,CHANNEL].SET[0.2].[AXI.oO - P * eU * Tmp]
+_Set_ Tmp_SELLECT oO.Tmp * i0.eU + TT.P[i] + eU * i0=TT.P[_Fix_]
+T[eU=Tmp*P .tmp [eU=Tmp*P+TT.T ,P*i0.oO=MASURE]].SET[_Fix_]
+SET eU=Tmp.PART[P.oO**i0 ,CHANNEL].SET[0.3].[AXI.oO - P * eU * Tmp]
+_Set_ Tmp_SELLECT oO.Tmp * i0.eU + TT.P[i] + eU * i0=TT.P[_Fix_]
+T[eU=Tmp*P .tmp [eU=Tmp*P+TT.T ,P*i0.oO=MASURE]].SET[_Fix_]
